@@ -7,9 +7,20 @@ a:hover, a:active, a:focus{
 	text-decoration:none;
 }
 
+button:hover, button:active, button:focus{
+	outline: none !important;
+}
+
+i{
+	color:#0299f1;
+}
 .grid{
 	background:#3A455C;
 }
 .box{
 	padding:80px 0px;
+}
+
+.btn-primary{
+	background:#0299f1;
 }

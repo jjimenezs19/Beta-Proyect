@@ -1,0 +1,36 @@
+.jobs-title{
+	margin-bottom:50px;
+	h1{
+		color:#000;
+	}
+}
+
+.job-box{
+	padding:20px 10px;
+	border: 1px solid #0299f1;
+	border-radius:5px;
+	margin-bottom: 30px;
+	i{
+		font-size: 22px;
+	}
+	.media-body{
+		h4, p{
+			color:#000;
+		}
+	}
+	&:hover{
+		background: #0299f1;
+		i{
+		color:#fff;
+		}
+		.media-body{
+			h4, p{
+				color:#fff;
+			}
+			.btn-primary{
+				background: #fff;
+				color:#0299f1;
+			}
+		}
+	}
+}
