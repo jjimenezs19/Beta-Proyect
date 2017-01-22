@@ -1,9 +1,18 @@
 $icon-font-path: '../fonts/';
-body{
-	background:#ccc;
-	section{
-		h1{
-			color:yellow;
-		}
-	}
-}
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+//global styles
+@import"core/global";
+
+@import"modules/header";
+@import"modules/four-grid";
+@import"modules/responsive";
+@import"modules/footer";

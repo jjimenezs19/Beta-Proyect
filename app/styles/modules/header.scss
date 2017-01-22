@@ -1,0 +1,27 @@
+#header-section{
+  height: 700px;
+  background: url(../images/9b1.jpg);
+  background-position:center;
+  background-size:cover;
+  header{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  nav{
+    .logo-main{
+        width: 300px;
+      }
+    .nav{
+        li{
+          a{
+            color: #fff;
+            font-size: 16px;
+            &:hover{
+              background:#337ab7;
+            }
+          }
+        }
+      }
+    }
+  }
+}

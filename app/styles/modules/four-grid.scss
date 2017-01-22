@@ -1,0 +1,23 @@
+.grid{
+	.col-sm-6{
+		height: 500px;
+	}
+	.color-four, .color-one{
+		background: #ccc;
+	}
+	.color-two{
+		background: url("../images/responsive.jpg");
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+	.color-three{
+		background: url("../images/slider.jpg");
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+}
+.four-grid{
+	background:#fff;
+}
