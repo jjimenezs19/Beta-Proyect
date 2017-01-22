@@ -1,5 +1,5 @@
 # Beta-Proyect
-After the fist pull, always run npm install and bower install to pull all dependencies.
+After the first pull, always run npm install and bower install to pull all dependencies.
 
 Run gulp serve to preview and watch for changes(RECOMENDED).
 
