@@ -1,23 +1,56 @@
 .grid{
-	.color-four, .color-one{
-		background: #ccc;
+	 .color-one{
+		background: #3A455C;
 		height: 500px;
+		transition: all 1s;
 	}
 	.color-two{
-		background: url("../images/responsive.jpg");
-		background-size:cover;
-		background-position:center;
-		background-repeat:no-repeat;
+		background: #ccc;
 		height: 500px;
-	}
-	.color-three{
-		background: url("../images/slider.jpg");
-		background-size:cover;
-		background-position:center;
-		background-repeat:no-repeat;
-		height: 500px;
+		transition: all 1s;
 	}
 }
 .four-grid{
-	background:#fff;
+	background:#ccc;
+	height: 100%
+}
+.Title-Shadow {
+	color: rgba(255, 255, 255, 0.1);
+	font-size: 30px;
+}
+.img-four {
+	height: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Text-Paragraph {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.1);
+
+}
+
+.four-box:hover {
+	box-shadow: 2px 2px;
+	background: #ccc;
+	transition: all 1s;
+
+	h1 {
+		color: rgba(58, 69, 92, 0.9);
+		font-size: 31px;
+		transition: all 1s;
+
+
+	}
+	p {
+		font-size: 21px;
+		transition: all 1s;
+		color: rgba(58, 69, 92, 0.8);
+	}
+	img {
+		height: 280px;
+		transition: all 1s;
+		box-shadow: 10px 10px 5px grey;
+
+	}
 }
