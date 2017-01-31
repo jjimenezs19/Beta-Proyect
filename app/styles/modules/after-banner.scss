@@ -8,13 +8,17 @@
 	.bottom-info{
 		margin-top: 45px;
 	}
+	.panel-primary{
+		box-shadow: 1px 2px 11px 5px grey;
+	}
 	@media (min-width: 1000px){
-		
+
 		.diamond-details{
 			
 		}
 		.icons{
 			background: #0299f1;
+			transition: all 0.5s;
 			width: 100px; 
 		    height: 100px; 
 		    border: 3px solid #fff; 
@@ -63,20 +67,19 @@
 					top:14px;
 					left: 26px;
 				}
-			// }
-			// &:hover{
-			// 	.opa{
-			// 		background:transparent;
-			// 		opacity: 1.0;
-			// 		padding:15px;
-			// 	i{
-			// 		color: #000;
-			// 	}
-			// 	span{
-			// 		color:#000;
-			// 		font-size: 18px;
-			// 		}
-			// 	}
+			}
+			&:hover{
+				
+				background: #fff;
+				border: 3px solid #0299f1;
+				transition: all 0.5s;
+				.opa{
+					background:#0299f1;
+					i{
+						color: #fff;
+					}
+				}
+				
 			}
 		}
 	}
