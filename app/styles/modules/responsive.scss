@@ -1,3 +1,16 @@
+.top-desing{
+	hr{
+	
+		height: 3px !important;
+	    border: 0;
+	    border-radius: 15px;
+	    background-image: linear-gradient(to right, #0299f1 0%, #fff 50%, #fff 50%, #0299f1 100%);
+	    display: block;
+	    margin: 0px auto 0px auto;
+	    width: 25%;
+	}
+}
+
 .resposive-desing{
 	.responsive-left{
 		div{
