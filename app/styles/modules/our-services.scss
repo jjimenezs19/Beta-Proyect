@@ -1,0 +1,72 @@
+.our-services{
+    // background: url(../images/service.png) no-repeat;
+    background-color:#f5f5f5;
+    height: 650px;
+    text-align: left;
+    padding: 50px 20px;
+    @media  (max-width: 980px){
+			height: auto;
+		}
+    // position:relative;
+    .service-icon{
+		height: 350px;
+		background: url(../images/service.png) no-repeat;
+		background-position:top;
+		background-position-y: 30px;
+		text-align: center;
+		margin-bottom: 20px;
+		@media(max-width:360px){
+			margin-bottom: 40px;
+		}
+		i{
+			font-size: 5em;
+			margin-top: 80px;
+			@media (min-width:1000px) {
+				margin-top: 60px;
+			}
+			@media(max-width:360px){
+				margin-top: 50px;
+			} 
+			@media(width:768px){
+				margin-top: 80px;
+			} 
+		}
+		.content-service{
+			margin-top: 50px;
+		}
+    }
+    hr{
+	
+		height: 3px !important;
+	    border: 0;
+	    border-radius: 15px;
+	    background-image: linear-gradient(to right, #0299f1 0%, #fff 50%, #fff 50%, #0299f1 100%);
+	    display: block;
+	    margin: 0px auto 0px auto;
+	    width: 80%;
+
+	}
+    .contact-link{
+    	i{
+    		font-size: 2em;
+    	}
+    	margin-top:30px;
+    	a{
+    		height: 50px;
+			//width: 30%;
+			font-weight: 700;
+			transition: .5s;
+    		&:hover{
+    			font-weight: 700;
+			    height: 50px;
+			    //width: 30%;
+			    color: #0299f1;
+			    border-radius: 10px;
+			    transition: .5s;
+			    background-color: transparent;
+			    border: 1px dashed #0299f1;
+    		}
+    	}
+    }
+
+}

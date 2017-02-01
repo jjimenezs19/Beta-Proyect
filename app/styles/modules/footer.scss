@@ -6,14 +6,33 @@
 	.fb svg{
     	stroke: #3b5998;
     	stroke-width: 2px;
+    	width: 65px;
 	}
 	.tw svg{
     	stroke: #1da1f2;
+    	width: 65px;
 	}
 	.lk svg{
     	stroke: #006fa6;
+    	width: 65px;
 	}
 	.inst svg{
     	stroke-width: 3px;
+    	width: 65px;
+	}
+
+	@media(min-width:1000px){
+		.fb svg{
+	    	width: 100px;
+		}
+		.tw svg{
+	    	width: 100px;
+		}
+		.lk svg{
+	    	width: 100px;
+		}
+		.inst svg{
+	    	width: 100px;
+		}
 	}
 }
